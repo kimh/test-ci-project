@@ -3,6 +3,4 @@ FROM mhart/alpine-node
 WORKDIR /src
 ADD . .
 
-RUN npm install
-
-CMD ["npm", "test"]
+CMD npm install && npm test
