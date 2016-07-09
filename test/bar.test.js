@@ -9,7 +9,7 @@ test('setup', function(t) {
 });
 
 test('bar', function(t) {
-  t.equal('baz', bar.foo());
+  t.equal('bab', bar.foo());
   t.end();
 });
 
